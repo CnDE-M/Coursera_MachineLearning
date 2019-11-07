@@ -17,24 +17,15 @@ Xinyue Ma   1653515@tongji.edu.cn
 >
 > For each record i, there are features of **n**:
 >
-> <!--
-\vec{X}_{m \times n}=
-\left(
-\begin{matrix}
- 1 & x_1^{(1)} & x_2^{(1)} & \cdots & x_n^{(1)} \\
- 1 & x_1^{(2)} & x_2^{(2)} & \cdots & x_n^{(2)} \\
- \vdots & \vdots & \vdots & \ddots & \vdots \\
- 1 & x_1^{(m)} & x_2^{(m)} & \cdots & x_n^{(m)} \\
-\end{matrix}
-\right)
--->
->
-> <a href="https://www.codecogs.com/eqnedit.php?latex=\vec{X}_{m&space;\times&space;n}=&space;\left(&space;\begin{matrix}&space;1&space;&&space;x_1^{(1)}&space;&&space;x_2^{(1)}&space;&&space;\cdots&space;&&space;x_n^{(1)}&space;\\&space;1&space;&&space;x_1^{(2)}&space;&&space;x_2^{(2)}&space;&&space;\cdots&space;&&space;x_n^{(2)}&space;\\&space;\vdots&space;&&space;\vdots&space;&&space;\vdots&space;&&space;\ddots&space;&&space;\vdots&space;\\&space;1&space;&&space;x_1^{(m)}&space;&&space;x_2^{(m)}&space;&&space;\cdots&space;&&space;x_n^{(m)}&space;\\&space;\end{matrix}&space;\right)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\vec{X}_{m&space;\times&space;n}=&space;\left(&space;\begin{matrix}&space;1&space;&&space;x_1^{(1)}&space;&&space;x_2^{(1)}&space;&&space;\cdots&space;&&space;x_n^{(1)}&space;\\&space;1&space;&&space;x_1^{(2)}&space;&&space;x_2^{(2)}&space;&&space;\cdots&space;&&space;x_n^{(2)}&space;\\&space;\vdots&space;&&space;\vdots&space;&&space;\vdots&space;&&space;\ddots&space;&&space;\vdots&space;\\&space;1&space;&&space;x_1^{(m)}&space;&&space;x_2^{(m)}&space;&&space;\cdots&space;&&space;x_n^{(m)}&space;\\&space;\end{matrix}&space;\right)" title="\vec{X}_{m \times n}= \left( \begin{matrix} 1 & x_1^{(1)} & x_2^{(1)} & \cdots & x_n^{(1)} \\ 1 & x_1^{(2)} & x_2^{(2)} & \cdots & x_n^{(2)} \\ \vdots & \vdots & \vdots & \ddots & \vdots \\ 1 & x_1^{(m)} & x_2^{(m)} & \cdots & x_n^{(m)} \\ \end{matrix} \right)" /></a>
->
-> <!--$$X^{(i)} = (1, x_1^{(i)}, x_2^{(i)}, \cdots, x_n^{(i)})^{T} \quad (i=1, 2, \cdots, m) $$ -->
+> <!--$$X^{(i)} = (1, x_1^{(i)}, x_2^{(i)}, \cdots, x_n^{(i)})^{T} \quad (i=1, 2, \cdots, m) $$-->
 >
 > <a href="https://www.codecogs.com/eqnedit.php?latex=$$X^{(i)}&space;=&space;(1,&space;x_1^{(i)},&space;x_2^{(i)},&space;\cdots,&space;x_n^{(i)})^{T}&space;\quad&space;(i=1,&space;2,&space;\cdots,&space;m)&space;$$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$$X^{(i)}&space;=&space;(1,&space;x_1^{(i)},&space;x_2^{(i)},&space;\cdots,&space;x_n^{(i)})^{T}&space;\quad&space;(i=1,&space;2,&space;\cdots,&space;m)&space;$$" title="$$X^{(i)} = (1, x_1^{(i)}, x_2^{(i)}, \cdots, x_n^{(i)})^{T} \quad (i=1, 2, \cdots, m) $$" /></a>
 >
+> <!--\vec{X}_{m \times n}=\left(\begin{matrix}1 & x_1^{(1)} & x_2^{(1)} & \cdots & x_n^{(1)} \\1 & x_1^{(2)} & x_2^{(2)} & \cdots & x_n^{(2)} \\\vdots & \vdots & \vdots & \ddots & \vdots \\1 & x_1^{(m)} & x_2^{(m)} & \cdots & x_n^{(m)} \\ \end{matrix}\right)-->
+>
+> <a href="https://www.codecogs.com/eqnedit.php?latex=\vec{X}_{m&space;\times&space;n}=&space;\left(&space;\begin{matrix}&space;1&space;&&space;x_1^{(1)}&space;&&space;x_2^{(1)}&space;&&space;\cdots&space;&&space;x_n^{(1)}&space;\\&space;1&space;&&space;x_1^{(2)}&space;&&space;x_2^{(2)}&space;&&space;\cdots&space;&&space;x_n^{(2)}&space;\\&space;\vdots&space;&&space;\vdots&space;&&space;\vdots&space;&&space;\ddots&space;&&space;\vdots&space;\\&space;1&space;&&space;x_1^{(m)}&space;&&space;x_2^{(m)}&space;&&space;\cdots&space;&&space;x_n^{(m)}&space;\\&space;\end{matrix}&space;\right)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\vec{X}_{m&space;\times&space;n}=&space;\left(&space;\begin{matrix}&space;1&space;&&space;x_1^{(1)}&space;&&space;x_2^{(1)}&space;&&space;\cdots&space;&&space;x_n^{(1)}&space;\\&space;1&space;&&space;x_1^{(2)}&space;&&space;x_2^{(2)}&space;&&space;\cdots&space;&&space;x_n^{(2)}&space;\\&space;\vdots&space;&&space;\vdots&space;&&space;\vdots&space;&&space;\ddots&space;&&space;\vdots&space;\\&space;1&space;&&space;x_1^{(m)}&space;&&space;x_2^{(m)}&space;&&space;\cdots&space;&&space;x_n^{(m)}&space;\\&space;\end{matrix}&space;\right)" title="\vec{X}_{m \times n}= \left( \begin{matrix} 1 & x_1^{(1)} & x_2^{(1)} & \cdots & x_n^{(1)} \\ 1 & x_1^{(2)} & x_2^{(2)} & \cdots & x_n^{(2)} \\ \vdots & \vdots & \vdots & \ddots & \vdots \\ 1 & x_1^{(m)} & x_2^{(m)} & \cdots & x_n^{(m)} \\ \end{matrix} \right)" /></a>
+>
+>  
 > Feature coefficiency:
 >
 > <!--$$\vec{\theta} = (\theta_0, \theta_1, \theta_2, \cdots, \theta_n)^T $$-->
@@ -85,11 +76,9 @@ This is to find θ, so that
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=\theta_j'&space;=&space;\theta_j&space;-&space;\alpha&space;\cdot&space;\frac{\partial&space;J(\theta)}{\partial&space;\theta_j},&space;\quad&space;j&space;=&space;1,2,&space;...,&space;n" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\theta_j'&space;=&space;\theta_j&space;-&space;\alpha&space;\cdot&space;\frac{\partial&space;J(\theta)}{\partial&space;\theta_j},&space;\quad&space;j&space;=&space;1,2,&space;...,&space;n" title="\theta_j' = \theta_j - \alpha \cdot \frac{\partial J(\theta)}{\partial \theta_j}, \quad j = 1,2, ..., n" /></a>
 
-In the above equation, "α" determines step length, "partial derivative" determine both step length and change orientation.
-For a large positive partial derivative,θ will decrease fast (imaging a car sliding fast at a steep slope.)
-
+In the above equation, __"α"__ determines step length (constant), __"partial derivative"__ determine both step length (decrease when proning to 0) and the orientation (increase to 0 or decrease to 0).
+For a large positive partial derivative, θ will decrease fast (imaging a car sliding fast at a steep slope); and for a small negative partial derivative, θ will increase slow (imaging a car sliding fast at a steep slope), they are all inclined to zero. **This could explain only one constant α is required in the equation.**
 
 <div align=center>
 	<img width="500" height="285" src="https://github.com/CnDE-M/Coursera_MarchineLearning/blob/master/Week_1_Gradient_Descent/svgs/gradient_descent.png"/>
 </div>
-
