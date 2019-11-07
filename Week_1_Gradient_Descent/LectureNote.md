@@ -72,7 +72,7 @@ This is to find θ, so that
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=\frac{\partial&space;J(\theta)}{\partial&space;\theta_j}&space;=&space;0,&space;\quad&space;j&space;=&space;1,2,&space;...,&space;n" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\frac{\partial&space;J(\theta)}{\partial&space;\theta_j}&space;=&space;0,&space;\quad&space;j&space;=&space;1,2,&space;...,&space;n" title="\frac{\partial J(\theta)}{\partial \theta_j} = 0, \quad j = 1,2, ..., n" /></a>
 
-"Gradient descent" is to simutaneously change each θ<sub>j</sub>'s value along with their partial derivative until all partial derivative equals to zero (or a weaken condition, the cost function value less than a threshold).
+"Gradient descent" is to simutaneously change each θ<sub>j</sub>'s value along with their partial derivative, iterate until all partial derivative equals to zero (or a weaken condition, the cost function value less than a threshold).
 
 <!--\theta_j' = \theta_j - \alpha \cdot \frac{\partial J(\theta)}{\partial \theta_j}, \quad j = 1,2, ..., n-->
 
