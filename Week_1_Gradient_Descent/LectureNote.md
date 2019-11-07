@@ -13,7 +13,9 @@ Xinyue Ma   1653515@tongji.edu.cn
 
 > i.e. we have datasets of **m**:
 >
-><a href="https://www.codecogs.com/eqnedit.php?latex=$$\vec{Y}&space;=&space;(y^{(1)},&space;y^{(2)},&space;\cdots,&space;y^{(m)})&space;^{T}$$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$$\vec{Y}&space;=&space;(y^{(1)},&space;y^{(2)},&space;\cdots,&space;y^{(m)})&space;^{T}$$" title="$$\vec{Y} = (y^{(1)}, y^{(2)}, \cdots, y^{(m)}) ^{T}$$" /></a>
+<!--$$\vec{Y}_{m \times 1} =(y^{(1)}, y^{(2)}, \cdots, y^{(m)})^{T}$$-->
+>
+><a href="https://www.codecogs.com/eqnedit.php?latex=$$\vec{Y}_{m&space;\times&space;1}&space;=(y^{(1)},&space;y^{(2)},&space;\cdots,&space;y^{(m)})^{T}$$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$$\vec{Y}_{m&space;\times&space;1}&space;=(y^{(1)},&space;y^{(2)},&space;\cdots,&space;y^{(m)})^{T}$$" title="$$\vec{Y}_{m \times 1} =(y^{(1)}, y^{(2)}, \cdots, y^{(m)})^{T}$$" /></a>
 >
 > For each record i, there are features of **n**:
 >
