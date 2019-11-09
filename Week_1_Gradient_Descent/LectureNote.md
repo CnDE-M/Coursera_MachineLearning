@@ -84,6 +84,12 @@ For a large positive partial derivative, θ will decrease fast (imaging a car sl
 	<img width="500" height="285" src="https://github.com/CnDE-M/Coursera_MarchineLearning/blob/master/Week_1_Gradient_Descent/svgs/gradient_descent.png"/>
 </div>
 
+Below is an actual gradient descent path of (θ0, θ1)~cost schematic image I made:
+<div align=center>
+	<img width="500" height="285" src="https://github.com/CnDE-M/Coursera_MachineLearning/blob/master/Week_1_Gradient_Descent/svgs/gradient%20descent%20path.png"/>
+</div>
+
+
 Let's simplify the equation:
 <!--$$\frac{\partial{J(\vec{\theta})}}{\partial{\theta_j}} = 2 \times \theta_j \times \sum^m_{i=1} (h_\theta(\vec{x}^{(i)})-Y^{(i)}), \quad j=1, 2, \cdots. n $$-->
 
