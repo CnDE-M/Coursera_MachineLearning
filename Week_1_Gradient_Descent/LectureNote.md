@@ -98,9 +98,10 @@ To formalize the simplyify the equation, 1/2m is multipled in the front, and the
 ### 4. Tips
 
 1. Prepossess data
+
 + feature scaling
 
-<!---$$x_i' = \frac{x_i}{x_{max}-x_{min}}$$->
+<!--$$x_i' = \frac{x_i}{x_{max}-x_{min}}$$-->
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=x_i'&space;=&space;\frac{x_i}{x_{max}-x_{min}}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?x_i'&space;=&space;\frac{x_i}{x_{max}-x_{min}}" title="x_i' = \frac{x_i}{x_{max}-x_{min}}" /></a>
 
