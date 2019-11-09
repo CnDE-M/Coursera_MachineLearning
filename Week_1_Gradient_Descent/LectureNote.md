@@ -115,7 +115,7 @@ To formalize the simplyify the equation, 1/2m is multipled in the front, and the
 Check if J(θ) decrease with the increase of iteration time, this will lead you find a proper α。
 
 <div align=center>
-	<img width="500" height="285" src="https://github.com/CnDE-M/Coursera_MarchineLearning/blob/master/Week_1_Gradient_Descent/svgs/"/>
+	<img width="500" height="285" src="https://github.com/CnDE-M/Coursera_MarchineLearning/blob/master/Week_1_Gradient_Descent/svgs/gradient_descent_3.png"/>
 </div>
 
 3. Polymonial regression model
