@@ -237,8 +237,8 @@ dF = tr(dF) \\
 <a href="https://www.codecogs.com/eqnedit.php?latex=\therefore&space;\quad&space;\frac{\partial{F}&space;}{\partial{\theta_j}}^T&space;=&space;2&space;\cdot&space;\vec{\theta}&space;-&space;\lambda&space;\cdot&space;X^T&space;\equiv&space;0" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\therefore&space;\quad&space;\frac{\partial{F}&space;}{\partial{\theta_j}}^T&space;=&space;2&space;\cdot&space;\vec{\theta}&space;-&space;\lambda&space;\cdot&space;X^T&space;\equiv&space;0" title="\therefore \quad \frac{\partial{F} }{\partial{\theta_j}}^T = 2 \cdot \vec{\theta} - \lambda \cdot X^T \equiv 0" /></a></p>
 
 
-<!--\therefore \lambda = -2 \cdot (X^T \cdot X)^{-1} \cdot \vec{Y} -->
-<a href="https://www.codecogs.com/eqnedit.php?latex=\therefore&space;\lambda&space;=&space;-2&space;\cdot&space;(X^T&space;\cdot&space;X)^{-1}&space;\cdot&space;\vec{Y}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\therefore&space;\lambda&space;=&space;-2&space;\cdot&space;(X^T&space;\cdot&space;X)^{-1}&space;\cdot&space;\vec{Y}" title="\therefore \lambda = -2 \cdot (X^T \cdot X)^{-1} \cdot \vec{Y}" /></a>
+<!--\therefore \quad \lambda = -2 \cdot (X^T \cdot X)^{-1} \cdot \vec{Y} -->
+<a href="https://www.codecogs.com/eqnedit.php?latex=\therefore&space;\quad&space;\lambda&space;=&space;-2&space;\cdot&space;(X^T&space;\cdot&space;X)^{-1}&space;\cdot&space;\vec{Y}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\therefore&space;\quad&space;\lambda&space;=&space;-2&space;\cdot&space;(X^T&space;\cdot&space;X)^{-1}&space;\cdot&space;\vec{Y}" title="\therefore \quad \lambda = -2 \cdot (X^T \cdot X)^{-1} \cdot \vec{Y}" /></a>
 
 
 <!--\therefore \quad \vec{\theta} = (X^T \cdot X)^{-1} \cdot X^T \cdot  \vec{Y} -->
