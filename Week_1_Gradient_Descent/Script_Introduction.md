@@ -95,6 +95,8 @@ And then plot out J(θ)~ iteration time.
 
 ### Example
 
+1. Gradient Descent:
+
 Import data from Machine Learning Repository<sup>1</sup>. mpg is the dependent value, choose [cylinders, horsepower, weight, acceleration] to be independent value, or feature.
 
 Set initial theta as [-1, 1, 1, 1, 1, 1], alpha = 0.01, iterate 20 times. 
@@ -129,11 +131,25 @@ Until cost stable at around 114, theta = [-1.0000, -0.0000, -0.0860, -0.2240, -0
 </div>
 
 
+
+2. Normal Equation:
+
+The normal Equation result is:
+<div align=center>
+	<img width="500" height="285" src="https://github.com/CnDE-M/Coursera_MachineLearning/blob/master/Week_1_Gradient_Descent/svgs/normEquation_result.PNG"/>
+</div>
+
+
+
+3. MATLAB built-in function: regress()
+
 Let's check the result with Matlab function regression:
 theta = [ -0.0000, -0.0863, -0.2240, -0.5653, -0.0106]
 <div align=center>
-	<img width="300" height="150" src="https://github.com/CnDE-M/Coursera_MachineLearning/blob/master/Week_1_Gradient_Descent/svgs/regress_test.PNG"/>
+	<img width="500" height="285" src="https://github.com/CnDE-M/Coursera_MachineLearning/blob/master/Week_1_Gradient_Descent/svgs/regress_test.PNG"/>
 </div>
+
+
 
 
 ## Reference
